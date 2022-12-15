@@ -1,0 +1,171 @@
+{
+  "main": {
+    "name": "Abirami Manisa",
+    "description": "A goal-oriented and dynamic engineer, seeking a challenging role that will promote both professional and personal advancement as well as the company's evolution.",
+    "bio": "A goal-oriented and dynamic Full Stack Developer, with experience in web and desktop application development. Exemplifies commitment to continual skill and knowledge improvement through comprehensive software engineering exposure. Highly analytical and organized in delivering high-quality work while orchestrating a wide variety of duties in a fast–paced environment. Effective team player with strong interpersonal abilities and a commitment to professionalism.",
+    "contactmessage": "Contact",
+    "email": "abiramimanisasakthivel@gmail.com",
+    "phone": "8870457166",
+    "github": "https://github.com/Abirami-Manisa",
+    "address": {
+      "street": "G9, Martin Daisy Residency,Ramanathapuram",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "zip": "641045"
+    },
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://in.linkedin.com/in/abirami-manisa-269b04157",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Abirami-Manisa",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Skills and Expertise",
+    "education": [
+      {
+        "school": "University",
+        "degree": "Bachelor of Engineering in Electronics and Communication Engineering",
+        "graduated": "September 2021",
+        "description": "CGPA : 9.16"
+      },
+      {
+        "school": "School",
+        "degree": "Higher Secondary",
+        "graduated": "May 2017",
+        "description": "Percentage : 89.67"
+      },
+      {
+        "degree": "SSLC",
+        "graduated": "May 2015",
+        "description": "Percentage : 99.4"
+      }
+    ],
+    "work": [
+      {
+        "company": "Kalycito Infotech Private Limited",
+        "title": "IoT Engineer",
+        "years": "September 2021- Present",
+        "description": "Development of robust applications with ReactTS and Express framework.",
+        "project":"Created an OPC UA-compliant PubSub Configurator Tool using React Typescript, Express, Electron, and Webpack"
+      }
+    ],
+    "skills-core": [
+      {
+        "name": "TypeScript",
+        "level": "60%"
+      },
+      {
+        "name": "Javascript",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML",
+        "level": "80%"
+      },
+      {
+        "name": "MERN",
+        "level": "50%"
+      },
+      {
+        "name": "Electron Framework",
+        "level": "80%"
+      },
+      {
+        "name": "Webpack",
+        "level": "80%"
+      },
+      {
+        "name": "UI/UX - Balsamiq",
+        "level": "80%"
+      },
+      {
+        "name": "Web Hosting",
+        "level": "80%"
+      },
+      {
+        "name": "OPC UA - Publish/Subscribe",
+        "level": "80%"
+      },
+      {
+        "name": "OS - Windows, Linux",
+        "level": "80%"
+      }
+    ],
+
+    "skills-tools":[
+      
+      {
+        "name":"Version Control - Gerrit, GitHub, GitLab",
+        "level":"70%"},
+
+        {
+          "name":"Project Management - JIRA",
+          "level":"70%"},
+          {
+            "name":"Animation Software - Animaker, Vyond",
+            "level":"80%"},
+            {
+              "name":"Video Editor - VideoPad",
+              "level":"80%"},
+
+    ],
+    "skills-interpersonal":[
+      
+      {
+        "name":"Quick Learner",
+        "level":"85%"},
+
+        {
+          "name":"Presentation Skills",
+          "level":"70%"},
+          {
+            "name":"Analytical Skills",
+            "level":"70%"},
+            {
+              "name":"Team Work",
+              "level":"80%"},
+              {
+                "name":"Leadership Skills",
+                "level":"80%"},
+
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Employee Management System",
+        "category": "Employee Management System",
+        "image": "01.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Web Resume",
+        "category": "Web Resume",
+        "image": "02.jpg",
+        "url": "http://www.timbakerdev.com"
+      }
+    ]
+  },
+
+  "testimonials": [
+    {
+      "user": "Aji Gopal - Team Lead - Kalycito Infotech Private Limited",
+      "text": "\"Abi consistently gave 100 percent effort to the team and played a significant role in ensuring that we completed assignments on time. Her energy to make things happen was contagious and it helped us achieve great goals. Abi would become an appreciated member of any team\""
+    }
+  ]
+}
