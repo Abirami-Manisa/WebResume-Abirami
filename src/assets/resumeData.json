@@ -53,33 +53,33 @@
         "title": "IoT Engineer",
         "years": "September 2021- Present",
         "description": "Development of robust applications with ReactTS and Express framework.",
-        "project":"Created an OPC UA-compliant PubSub Configurator Tool using React Typescript, Express, Electron, and Webpack"
+        "project": "Created an OPC UA-compliant PubSub Configurator Tool using React Typescript, Express, Electron, and Webpack"
       }
     ],
-    "skills-core": [
+    "skillsCore": [
       {
         "name": "TypeScript",
-        "level": "60%"
+        "level": "75%"
       },
       {
         "name": "Javascript",
-        "level": "55%"
+        "level": "75%"
       },
       {
         "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML",
         "level": "80%"
       },
       {
+        "name": "CSS",
+        "level": "70%"
+      },
+      {
+        "name": "HTML",
+        "level": "65%"
+      },
+      {
         "name": "MERN",
-        "level": "50%"
+        "level": "75%"
       },
       {
         "name": "Electron Framework",
@@ -99,69 +99,56 @@
       },
       {
         "name": "OPC UA - Publish/Subscribe",
-        "level": "80%"
+        "level": "70%"
       },
       {
         "name": "OS - Windows, Linux",
         "level": "80%"
       }
     ],
-
-    "skills-tools":[
-      
+    "skillsTools": [
       {
-        "name":"Version Control - Gerrit, GitHub, GitLab",
-        "level":"70%"},
+        "name": "Version Control - Gerrit, GitHub, GitLab",
+        "level": "70%"
+      },
 
-        {
-          "name":"Project Management - JIRA",
-          "level":"70%"},
-          {
-            "name":"Animation Software - Animaker, Vyond",
-            "level":"80%"},
-            {
-              "name":"Video Editor - VideoPad",
-              "level":"80%"},
-
-    ],
-    "skills-interpersonal":[
-      
       {
-        "name":"Quick Learner",
-        "level":"85%"},
-
-        {
-          "name":"Presentation Skills",
-          "level":"70%"},
-          {
-            "name":"Analytical Skills",
-            "level":"70%"},
-            {
-              "name":"Team Work",
-              "level":"80%"},
-              {
-                "name":"Leadership Skills",
-                "level":"80%"},
-
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Employee Management System",
-        "category": "Employee Management System",
-        "image": "01.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "name": "Project Management - JIRA",
+        "level": "70%"
       },
       {
-        "title": "Web Resume",
-        "category": "Web Resume",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com"
+        "name": "Animation Software - Animaker, Vyond",
+        "level": "80%"
+      },
+      {
+        "name": "Video Editor - VideoPad",
+        "level": "80%"
+      }
+    ],
+    "skillsInterpersonal": [
+      {
+        "name": "Quick Learner",
+        "level": "85%"
+      },
+
+      {
+        "name": "Presentation Skills",
+        "level": "70%"
+      },
+      {
+        "name": "Analytical Skills",
+        "level": "70%"
+      },
+      {
+        "name": "Team Work",
+        "level": "80%"
+      },
+      {
+        "name": "Leadership Skills",
+        "level": "80%"
       }
     ]
   },
-
   "testimonials": [
     {
       "user": "Aji Gopal - Team Lead - Kalycito Infotech Private Limited",

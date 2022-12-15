@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
 import Fade from "react-reveal";
 
-import { FaDownload } from "react-icons/fa"
+import { FaDownload } from "react-icons/fa";
 
-import Resume from "../assets/Resume_Abirami_Manisa.pdf"
-import Data from "../assets/resumeData.json"
+import Resume from "../assets/Resume_Abirami_Manisa.pdf";
+import Data from "../assets/resumeData.json";
 
-import profilePic from "../assets/Abirami_profile_pic.jpg"
-import "../css/layout.css"
+import profilePic from "../assets/Abirami_profile_pic.jpg";
+import "../css/layout.css";
+import { Button } from "react-bootstrap";
 
 const About = () => {
   if (!Data) return null;
@@ -30,9 +31,9 @@ const About = () => {
             <div className="row">
               <div>
                 <a href={Resume} download="Resume-Abirami-Manisa">
-                  <button type="button" className="btn btn-secondary" title="Download Resume">
+                  <Button title="Download Button" variant="secondary" size="lg">
                     <FaDownload /> &nbsp; Download Resume
-                  </button>
+                  </Button>
                 </a>
               </div>
             </div>
@@ -40,7 +41,7 @@ const About = () => {
         </div>
       </Fade>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
