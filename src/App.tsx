@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 
 import NavBar from "./components/Navbar";
 import About from "./components/About";
@@ -10,7 +9,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Testimonial from "./components/Testimonial";
 
-const App = () => {
+const App:React.FC = () => {
   return (
     <>
       <NavBar />

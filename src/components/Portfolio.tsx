@@ -9,7 +9,7 @@ import proj2 from "../assets/images/portfolio/02.jpg";
 import "../css/default.css";
 let id = 0;
 
-const Portfolio = () => {
+const Portfolio:React.FC = () => {
   if (!Data) return null;
 
   return (

@@ -117,14 +117,17 @@ const Resume: React.FC = () => {
             <p>{skillmessage}</p>
 
             <p>Core Skills</p>
+            <br />
             <div className="bars">
               <ul className="skills">{skills}</ul>
             </div>
             <p>Tools</p>
+            <br />
             <div className="bars">
               <ul className="skills">{skillsTools}</ul>
             </div>
             <p>Interpersonal Skills</p>
+            <br />
             <div className="bars">
               <ul className="skills">{skillsInterpersonal}</ul>
             </div>

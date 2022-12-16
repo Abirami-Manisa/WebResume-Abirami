@@ -10,7 +10,7 @@ import profilePic from "../assets/Abirami_profile_pic.jpg";
 import "../css/layout.css";
 import { Button } from "react-bootstrap";
 
-const About = () => {
+const About:React.FC = () => {
   if (!Data) return null;
 
   return (

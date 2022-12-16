@@ -4,7 +4,7 @@ import Data from "../assets/resumeData.json"
 
 import "../css/layout.css"
 
-const Testimonial = () => {
+const Testimonial:React.FC = () => {
     if (!Data) return null;
     const testimonials = Data.testimonials.map(function (testimonials) {
         return (

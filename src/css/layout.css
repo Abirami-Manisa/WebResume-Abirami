@@ -103,7 +103,7 @@ header .social li a:hover {
 /* scrolldown link */
 header .scrolldown a {
   position: absolute;
-  bottom: 30px;
+  bottom: 0px;
   left: 50%;
   margin-left: -29px;
   color: #fff;
@@ -624,65 +624,6 @@ ul#nav li.current a {
   opacity: 0;
 }
 
-/* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
-
-#call-to-action {
-  background: #212121;
-  padding-top: 66px;
-  padding-bottom: 48px;
-}
-#call-to-action h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-}
-#call-to-action h1 span {
-  display: none;
-}
-#call-to-action .header-col h1:before {
-  font-family: "FontAwesome";
-  content: "\f0ac";
-  padding-right: 10px;
-  font-size: 72px;
-  line-height: 72px;
-  text-align: left;
-  float: left;
-  color: #fff;
-}
-#call-to-action .action {
-  margin-top: 12px;
-}
-#call-to-action h2 {
-  font: 28px/36px "opensans-bold", sans-serif;
-  color: #ebeeee;
-  margin-bottom: 6px;
-}
-#call-to-action h2 a {
-  color: inherit;
-}
-#call-to-action p {
-  color: #636363;
-  font-size: 17px;
-}
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
-#call-to-action .button:hover,
-#call-to-action .button:active {
-  background: #ffffff;
-  color: #0d0d0d;
-}
-#call-to-action p span {
-  font-family: "opensans-semibold", sans-serif;
-  color: #d8d8d8;
-}
-
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
@@ -872,13 +813,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-  background: #191919;
-  /* padding-top: 96px;
-  padding-bottom: 102px; */
+  background: #B7B327;
   color: #636363;
-}
-#contact .section-head {
-  margin-bottom: 42px;
 }
 
 #contact a,
@@ -929,9 +865,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-  padding-top: 48px !important;
-  margin-bottom: 48px !important;
-  color: #303030;
+  margin: 0 auto !important;
+  display:flex !important;
+  flex-direction: column;
+  background-color: #303030 !important;
   font-size: 14px !important;
   text-align: center;
   position: relative;
@@ -990,10 +927,7 @@ footer .social-links li:first-child {
 
 /* Go To Top Button */
 #go-top {
-  position: absolute;
-  top: -24px;
-  left: 50%;
-  margin-left: -30px;
+  margin: 0 auto;
 }
 #go-top a {
   text-decoration: none;

@@ -6,7 +6,7 @@ import Data from "../assets/resumeData.json";
 
 import "../css/layout.css";
 
-const Home = () => {
+const Home:React.FC = () => {
   if (!Data) return null;
   return (
     <div>

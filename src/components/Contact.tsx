@@ -9,7 +9,7 @@ import "../css/default.css";
 import "../css/font-awesome/css/font-awesome.css";
 import "../css/font-awesome/css/font-awesome.min.css";
 
-const Contact = () => {
+const Contact: React.FC = () => {
   if (!Data) return null;
   const name = Data.main.name;
   const street = Data.main.address.street;
@@ -17,37 +17,31 @@ const Contact = () => {
   const state = Data.main.address.state;
   const zip = Data.main.address.zip;
   const phone = Data.main.phone;
+  const mail = Data.main.email;
   const message = Data.main.contactmessage;
 
   return (
     <section id="contact">
-      <Fade bottom duration={1000}>
-        <div className="row section-head">
-          <div className="two columns header-col">
-            <h1>
-              <span>Get In Touch.</span>
-            </h1>
-          </div>
-
-          <div className="ten columns">
-            <p className="lead">{message}</p>
+      <Fade bottom duration={2000}>
+        <div className="row">
+          <div>
+            <h4>{message}</h4>
           </div>
         </div>
       </Fade>
 
-      <Slide right duration={1000}>
-        <div className="four columns footer-widgets">
-          <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
-            <p className="address">
-              {name}
-              <br />
-              {street} <br />
-              {city}, {state} {zip}
-              <br />
-              <span>{phone}</span>
-            </p>
-          </div>
+      <Slide right duration={2000}>
+        <div>
+          <p style={{margin:"0 0 0 10%"}}>
+            {name}
+            <br />
+            {street} <br />
+            {city}, {state} {zip}
+            <br />
+            <span>{phone}</span>
+            <br />
+            <span>{mail}</span>
+          </p>
         </div>
       </Slide>
     </section>
