@@ -3,16 +3,7 @@
     "name": "Abirami Manisa",
     "description": "A goal-oriented and dynamic engineer, seeking a challenging role that will promote both professional and personal advancement as well as the company's evolution.",
     "bio": "A goal-oriented and dynamic Full Stack Developer, with experience in web and desktop application development. Exemplifies commitment to continual skill and knowledge improvement through comprehensive software engineering exposure. Highly analytical and organized in delivering high-quality work while orchestrating a wide variety of duties in a fast–paced environment. Effective team player with strong interpersonal abilities and a commitment to professionalism.",
-    "contactmessage": "Contact",
-    "email": "abiramimanisasakthivel@gmail.com",
-    "phone": "8870457166",
     "github": "https://github.com/Abirami-Manisa",
-    "address": {
-      "street": "G9, Martin Daisy Residency,Ramanathapuram",
-      "city": "Coimbatore",
-      "state": "Tamil Nadu",
-      "zip": "641045"
-    },
     "social": [
       {
         "name": "linkedin",
@@ -23,6 +14,11 @@
         "name": "github",
         "url": "https://github.com/Abirami-Manisa",
         "className": "fa fa-github"
+      },
+      {
+        "name": "mail",
+        "url": "mailto:abiramimanisasakthivel@gmail.com",
+        "className": "fa fa-inbox"
       }
     ]
   },
@@ -33,18 +29,21 @@
         "school": "University",
         "degree": "Bachelor of Engineering in Electronics and Communication Engineering",
         "graduated": "September 2021",
-        "description": "CGPA : 9.16"
+        "score": "CGPA : 9.16",
+        "description":"Anna University Rank Holder"
       },
       {
         "school": "School",
         "degree": "Higher Secondary",
         "graduated": "May 2017",
-        "description": "Percentage : 89.67"
+        "score": "Percentage : 89.67",
+        "description":"State Level Prizes for Classical Dance"
       },
       {
         "degree": "SSLC",
         "graduated": "May 2015",
-        "description": "Percentage : 99.4"
+        "score": "Percentage : 99.4",
+        "description":"State Rank Holder"
       }
     ],
     "work": [

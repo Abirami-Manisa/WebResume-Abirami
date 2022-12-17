@@ -9,13 +9,18 @@ const Resume: React.FC = () => {
   const education = Data.resume.education.map(function (education) {
     return (
       <div key={education.school}>
+        <br />
         <h3>{education.school}</h3>
         <p className="info">
-          {education.degree} <span>&bull;</span>
+          <b>
+            {education.degree} <span>&bull;</span>
+          </b>
           <em className="date">{education.graduated}</em>
         </p>
-        <p>{education.description}</p>
-        <p></p>
+        <p>{education.score}</p>
+        <span>&bull; </span>
+        <em>{education.description}</em>
+        
       </div>
     );
   });
@@ -25,8 +30,10 @@ const Resume: React.FC = () => {
       <div key={work.company}>
         <h3>{work.company}</h3>
         <p className="info">
-          {work.title}
-          <span>&bull;</span>
+          <b>
+            {work.title}
+            <span>&bull;</span>
+          </b>
           <em className="date">{work.years}</em>
         </p>
         <p>{work.description}</p>
@@ -116,17 +123,23 @@ const Resume: React.FC = () => {
           <div className="nine columns main-col">
             <p>{skillmessage}</p>
 
-            <p>Core Skills</p>
+            <p>
+              <b>Core Skills</b>
+            </p>
             <br />
             <div className="bars">
               <ul className="skills">{skills}</ul>
             </div>
-            <p>Tools</p>
+            <p>
+              <b>Tools</b>
+            </p>
             <br />
             <div className="bars">
               <ul className="skills">{skillsTools}</ul>
             </div>
-            <p>Interpersonal Skills</p>
+            <p>
+              <b>Interpersonal Skills</b>
+            </p>
             <br />
             <div className="bars">
               <ul className="skills">{skillsInterpersonal}</ul>

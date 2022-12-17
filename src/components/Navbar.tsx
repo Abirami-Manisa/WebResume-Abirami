@@ -5,7 +5,8 @@ import logo from "../assets/logo.PNG";
 
 const NavBar = () => {
   return (
-    <div style={{ position: "sticky", top: "2px", zIndex: "99999" }}>
+    <div style={{ position: "sticky",top:"1px", zIndex: "99999" }}>
+      
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
@@ -23,11 +24,12 @@ const NavBar = () => {
               <Nav.Link href="#resume">Resume</Nav.Link>
               <Nav.Link href="#works">Works</Nav.Link>
               <Nav.Link href="#testimonials">Testimonials</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link href="#footer">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
     </div>
   );
 };

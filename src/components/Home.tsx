@@ -9,7 +9,7 @@ import "../css/layout.css";
 const Home:React.FC = () => {
   if (!Data) return null;
   return (
-    <div>
+    <div style={{height:"100vh"}}>
       <header id="home">
         <ParticlesBg type="circle" bg={true}/>
         <div className="banner">
@@ -23,7 +23,7 @@ const Home:React.FC = () => {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={Data.main.github} className="button btn github-btn">
+                <a href={Data.main.github} className="button btn github-btn" target="_blank">
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>

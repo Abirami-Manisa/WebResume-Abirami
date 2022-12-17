@@ -5,7 +5,6 @@ import About from "./components/About";
 import Home from "./components/Home";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Testimonial from "./components/Testimonial";
 
@@ -18,7 +17,6 @@ const App:React.FC = () => {
       <Resume />
       <Portfolio />
       <Testimonial />
-      <Contact />
       <Footer />
     </>
   );

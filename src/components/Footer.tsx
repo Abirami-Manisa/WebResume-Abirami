@@ -11,15 +11,17 @@ import "../css/font-awesome/css/font-awesome.min.css";
 const Footer: React.FC = () => {
   if (!Data) return null;
   const networks = Data.main.social.map(function (network) {
+
     return (
       <li key={network.name}>
-        <a href={network.url}>
+        <a href={network.url} target="_blank">
           <i className={network.className}></i>
         </a>
       </li>
     );
   });
   return (
+    <div id="footer">
     <footer>
       <div id="go-top">
         <a className="smoothscroll" title="Back to Top" href="#home">
@@ -30,14 +32,11 @@ const Footer: React.FC = () => {
         <Fade bottom>
           <div className="twelve columns">
             <ul className="social-links">{networks}</ul>
-
-            <ul className="copyright">
-              <li>&copy; By Abirami Manisa</li>
-            </ul>
           </div>
         </Fade>
       </div>
     </footer>
+    </div>
   );
 };
 
