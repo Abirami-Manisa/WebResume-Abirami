@@ -214,6 +214,18 @@ header .scrolldown a:hover {
   padding-right: 10%;
 }
 
+#publication {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#publication h4 span {
+  border-bottom: 3px solid #0762f9;
+  padding-bottom: 6px;
+}
+
 .education,
 .work {
   margin-bottom: 48px;
@@ -480,12 +492,7 @@ header .scrolldown a:hover {
 }
 
 /*	Blockquotes */
-#testimonials blockquote {
-  margin: 0 0px 30px 0px;
-  padding-left: 0;
-  position: relative;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-}
+
 #testimonials blockquote:before {
   content: none;
 }

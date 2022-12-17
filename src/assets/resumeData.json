@@ -153,5 +153,26 @@
       "user": "Aji Gopal - Team Lead - Kalycito Infotech Private Limited",
       "text": "\"Abi consistently gave 100 percent effort to the team and played a significant role in ensuring that we completed assignments on time. Her energy to make things happen was contagious and it helped us achieve great goals. Abi would become an appreciated member of any team\""
     }
+  ],
+  "publications": [
+    {
+      "title": "Early Detection of Myocardial Infarction Using Machine Learning with Maximum Accuracy",
+      "journal": "Lecture Notes in Electrical Engineering, vol 758. Springer, Singapore",
+      "year":"Nov 14, 2022",
+      "url":"https://link.springer.com/chapter/10.1007/978-981-16-2183-3_52#citeas"
+    },
+    {
+      "title": "IoT enabled Organ Preservation, Monitoring, and Transportation System",
+      "journal": "International Journal of Engineering Applied Sciences and Technology (IJEAST)",
+      "year":"Apr 11, 2020",
+      "url":"https://www.ijeast.com/papers/203-207,Tesma411,IJEAST.pdf"
+    }
+  ],
+  "patent": [
+    {
+      "title": "Apparatus for Normothermic Extracorporeal Organ perfusion",
+      "number": "202241023489 A",
+      "year":"May 13, 2022"
+    }
   ]
 }

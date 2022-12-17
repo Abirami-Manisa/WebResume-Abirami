@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
 
     return (
       <li key={network.name}>
-        <a href={network.url} target="_blank">
+        <a href={network.url} target="_blank" rel="noreferrer">
           <i className={network.className}></i>
         </a>
       </li>

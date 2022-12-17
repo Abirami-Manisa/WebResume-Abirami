@@ -22,6 +22,7 @@ const NavBar = () => {
             <Nav className="me-auto" style={{ margin: "0 auto" }}>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#resume">Resume</Nav.Link>
+              <Nav.Link href="#publication">Publications</Nav.Link>
               <Nav.Link href="#works">Works</Nav.Link>
               <Nav.Link href="#testimonials">Testimonials</Nav.Link>
               <Nav.Link href="#footer">Contact</Nav.Link>

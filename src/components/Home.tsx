@@ -23,7 +23,7 @@ const Home:React.FC = () => {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={Data.main.github} className="button btn github-btn" target="_blank">
+                <a href={Data.main.github} className="button btn github-btn" target="_blank" rel="noreferrer">
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>

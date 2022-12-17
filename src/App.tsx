@@ -7,6 +7,7 @@ import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import Testimonial from "./components/Testimonial";
+import Publications from "./components/Publications";
 
 const App:React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App:React.FC = () => {
       <Home />
       <About />
       <Resume />
+      <Publications />
       <Portfolio />
       <Testimonial />
       <Footer />
