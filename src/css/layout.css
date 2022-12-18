@@ -264,7 +264,7 @@ header .scrolldown a:hover {
 .bars li {
   position: relative;
   margin-bottom: 60px;
-  background: #808080;
+  background: #fadb16;
   height: 42px;
   border-radius: 45px;
 }
@@ -473,9 +473,6 @@ header .scrolldown a:hover {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
-}
-#testimonials h1 span {
-  display: none;
 }
 #testimonials .header-col {
   padding-top: 9px;

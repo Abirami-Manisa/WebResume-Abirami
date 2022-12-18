@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           <FaSortUp size={40} />
         </a>
       </div>
-      <div className="row">
+      <div className="row" style={{display:"flex",flexDirection:"column"}}>
         <Fade bottom>
           <div className="twelve columns">
             <ul className="social-links">{networks}</ul>

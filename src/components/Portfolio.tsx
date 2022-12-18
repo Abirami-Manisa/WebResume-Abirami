@@ -1,5 +1,7 @@
 import React, { Dispatch, SetStateAction, useState } from "react";
-import Fade from "react-reveal";
+import { Fade, Zoom } from "react-reveal";
+import Pulse from "react-reveal";
+
 import { Modal } from "react-bootstrap";
 import Data from "../assets/resumeData.json";
 
@@ -33,7 +35,7 @@ const Portfolio: React.FC = () => {
           name={imageName}
         />
       )}
-      <section id="works" style={{background:"#fffaf0"}}>
+      <section id="works" style={{ background: "#fffaf0" }}>
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="columns collapsed">
@@ -45,28 +47,49 @@ const Portfolio: React.FC = () => {
               >
                 <div key={id++} className="columns portfolio-item">
                   <div className="item-wrap">
-                    <img
-                      id="ems"
-                      alt="Employee Management System"
-                      src={proj1}
-                      onClick={() =>
-                        setModal("Employee Management System", proj1)
-                      }
-                    />
-                    <div style={{ textAlign: "center" }}>
-                      Employee Management System
-                    </div>
+                    <Pulse>
+                      <img
+                        id="ems"
+                        alt="Employee Management System"
+                        src={proj1}
+                        onClick={() =>
+                          setModal("Employee Management System", proj1)
+                        }
+                      />
+                      <div style={{ textAlign: "center", color: "black" }}>
+                        <a
+                          href="https://github.com/Abirami-Manisa/MERN-Stack"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <span style={{ color: "black" }}>
+                            {" "}
+                            Employee Management System
+                          </span>
+                        </a>
+                      </div>
+                    </Pulse>
                   </div>
                 </div>
                 <div key={id++} className="columns portfolio-item">
                   <div className="item-wrap">
-                    <img
-                      id="wr"
-                      alt="Web Resume"
-                      src={proj2}
-                      onClick={() => setModal("Web Resume", proj2)}
-                    />
-                    <div style={{ textAlign: "center" }}>Web Resume</div>
+                    <Pulse>
+                      <img
+                        id="wr"
+                        alt="Web Resume"
+                        src={proj2}
+                        onClick={() => setModal("Web Resume", proj2)}
+                      />
+                      <div style={{ textAlign: "center" }}>
+                        <a
+                          href="https://github.com/Abirami-Manisa/WebResume-Abirami"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <span style={{ color: "black" }}> Web Resume</span>
+                        </a>
+                      </div>
+                    </Pulse>
                   </div>
                 </div>
               </div>
@@ -92,22 +115,24 @@ const PopUp: React.FC<PopupProps> = (props: PopupProps) => {
   }
   return (
     <>
-      <Modal
-        size="lg"
-        aria-labelledby="contained-modal-title-vcenter"
-        centered
-        show={props.showModal}
-        onHide={handleClose}
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">
-            {props.name}
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <img id={props.name} alt={props.name} src={props.image} />
-        </Modal.Body>
-      </Modal>
+      <Zoom>
+        <Modal
+          size="lg"
+          aria-labelledby="contained-modal-title-vcenter"
+          centered
+          show={props.showModal}
+          onHide={handleClose}
+        >
+          <Modal.Header closeButton>
+            <Modal.Title id="contained-modal-title-vcenter">
+              {props.name}
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <img id={props.name} alt={props.name} src={props.image} />
+          </Modal.Body>
+        </Modal>
+      </Zoom>
     </>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import { Accordion, Button } from "react-bootstrap";
+import Flip from "react-reveal"
 
 import Data from "../assets/resumeData.json";
 import "../css/layout.css";
@@ -49,25 +50,27 @@ const Publications: React.FC = () => {
   return (
     <div style={{ background: "#c0c0c017" }}>
       <section id="publication">
-        <h3>Publications and Patent</h3>
-        <Accordion defaultActiveKey="0" alwaysOpen>
-          <Accordion.Item eventKey="0">
-            <Accordion.Header>
-              <h4>
-                <span>Publications</span>
-              </h4>
-            </Accordion.Header>
-            <Accordion.Body>{publication}</Accordion.Body>
-          </Accordion.Item>
-          <Accordion.Item eventKey="1">
-            <Accordion.Header>
-              <h4>
-                <span>Patent</span>
-              </h4>
-            </Accordion.Header>
-            <Accordion.Body>{patent}</Accordion.Body>
-          </Accordion.Item>
-        </Accordion>
+        <Flip top>
+          <h3>Publications and Patent</h3>
+          <Accordion defaultActiveKey="0" alwaysOpen>
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>
+                <h4>
+                  <span>Publications</span>
+                </h4>
+              </Accordion.Header>
+              <Accordion.Body>{publication}</Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+              <Accordion.Header>
+                <h4>
+                  <span>Patent</span>
+                </h4>
+              </Accordion.Header>
+              <Accordion.Body>{patent}</Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+        </Flip>
       </section>
     </div>
   );
