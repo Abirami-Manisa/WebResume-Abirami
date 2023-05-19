@@ -50,9 +50,16 @@
       {
         "company": "Kalycito Infotech Private Limited",
         "title": "IoT Engineer",
-        "years": "September 2021- Present",
+        "years": "September 2021- January 2023",
         "description": "Development of robust applications with ReactTS and Express framework.",
         "project": "Created an OPC UA-compliant PubSub Configurator Tool using React Typescript, Express, Electron, and Webpack"
+      },
+      {
+        "company": "Aaludra Technology Solutions",
+        "title": "Software Engineer",
+        "years": "February 2023- Present",
+        "description": "Senior Front-End developer with experience in creating applications using React Framework.",
+        "project": "Developed a Leave, Shift, and Attendance Management system using ReactJS, and Redux for a reputed IT Organization."
       }
     ],
     "skillsCore": [
@@ -112,7 +119,7 @@
       },
 
       {
-        "name": "Project Management - JIRA",
+        "name": "Project Management - JIRA, OpenProject",
         "level": "70%"
       },
       {
@@ -152,6 +159,10 @@
     {
       "user": "Aji Gopal - Team Lead - Kalycito Infotech Private Limited",
       "text": "\"Abi consistently gave 100 percent effort to the team and played a significant role in ensuring that we completed assignments on time. Her energy to make things happen was contagious and it helped us achieve great goals. Abi would become an appreciated member of any team\""
+    },
+    {
+      "user": "Palanikkumar - Professor - Dr NGP Institute of Technology",
+      "text": "\"Known Abirami as an enthusiastic student from the very first day I taught her Python when she was in her First year. I have seen her grow with talent and discipline during her college days. She had been consistent in her grades and I liked her excellence in classical dance. I will always remember her fondly as she is a great example of how an ideal student should be. Having known her skills, I highly endorse it and wish her great luck in all her future endeavors.\""
     }
   ],
   "publications": [

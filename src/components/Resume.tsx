@@ -28,7 +28,7 @@ const Resume: React.FC = () => {
   const work = Data.resume.work.map(function (work) {
     return (
       <div key={work.company}>
-        <h3>{work.company}</h3>
+        <h3 style={{marginTop:"5px"}}>{work.company}</h3>
         <p className="info">
           <b>
             {work.title}
